@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savings Goals</title>
+    <link rel="stylesheet" href="/financeidea/css/goals.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="/financeidea/index.html">Home</a></li>
+            <li><a href="goals.html" class="active">Savings Goals</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div>
+    <h2>Set a New Goal</h2>
+    <label for="goalName">Goal Name:</label>
+    <input type="text" id="goalName">
+    <label for="goalDescription">Description:</label>
+    <input type="text" id="goalDescription">
+    <label for="goalAmount">Amount:</label>
+    <input type="number" id="goalAmount">
+    <button id="addGoal">Add Goal</button>
+</div>
+
+<div>
+    <div>
+        <h2>Your Savings Goals</h2>
+        <p>Available Saved Money: <span id="availableMoneyDisplay">$0</span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Goal Name</th>
+                    <th>Description</th>
+                    <th>Target Amount</th>
+                    <th>Current Amount</th>
+                    <th>Allocate Money</th>
+                </tr>
+            </thead>
+            <tbody id="goalsTable">
+            </tbody>
+        </table>
+    </div>
+
+<script src="/financeidea/js/goals.js"></script>
+
+</body>
+</html>

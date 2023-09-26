@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracking App</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="views/goals.html">Savings Goals</a></li>
+                <li><a href="#">Transactions</a></li>
+                <li><a href="views/currencyConverter.html">Convertor</a></li>
+            </ul>
+        </nav>
+    </header>
+    <canvas  id="myPieChart" width:250, height:250,></canvas>
+    <div>
+        <label for="type">Transaction Type:</label>
+        <select id="type">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+        </select>
+    
+        <label for="description">Description:</label>
+        <input type="text" id="description">
+    
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount">
+        <label for="colorPicker">Category Color:</label>
+        <input type="color" id="colorPicker" value="#FF0000">
+        
+        <button onclick="addTransaction()">Add Transaction</button>
+    </div>
+    
+    <table id="transactionsTable" border="1">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Description</th>
+                <th>Amount</th>
+                <th>Date</th>
+                <th>Category</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Transactions will be added here -->
+        </tbody>
+    </table>
+    <p id="savedMoneyDisplay"></p>
+    <button id="clearButton">Clear All Data</button>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>
