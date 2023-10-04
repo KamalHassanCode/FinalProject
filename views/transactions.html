@@ -4,20 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Finance Tracking App</title>
-    <link rel="stylesheet" href="financeidea/styles/indexstyles.css">
+    <link rel="stylesheet" href="/finalproject/styles/indexstyles.css">
     
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#" class="active">Home</a></li>
-                <li><a href="views/goals.html">Savings Goals</a></li>
-                <li><a href="#">Transactions</a></li>
-                <li><a href="views/currencyConverter.html">Convertor</a></li>
+                <li><a href="/FinalProject/main.html" >Home</a></li>
+                <li><a href="goals.html">Savings Goals</a></li>
+                <li><a href="currencyConverter.html">Convertor</a></li>
             </ul>
         </nav>
     </header>
+    <h1>Transaction Tracker</h1>
+    <div id="bottomStuff">
+        <h2> Savings:</h2>
+        <p id="savedMoneyDisplay"></p>
+        <button id="clearButton">Clear All Data</button>
+    </div>
     <canvas  id="myPieChart" width:250, height:250,></canvas>
     <div>
         <label for="type">Transaction Type:</label>
@@ -52,11 +57,9 @@
             <!-- Transactions will be added here -->
         </tbody>
     </table>
-    <p id="savedMoneyDisplay"></p>
-    <button id="clearButton">Clear All Data</button>
- 
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="financeidea/js/script.js"></script>
+    <script src="/FinalProject/js/script.js"></script>
 
 </body>
 </html>

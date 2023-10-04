@@ -49,6 +49,10 @@ body {
 }
 
 div {
+    border-radius: 25px;
+    margin-left: 15%;
+    margin-right: 10%;
+    width: fit-content;
     background-color: #F07818;
     padding: 20px;
     border-radius: 5px;
@@ -83,7 +87,10 @@ button:hover {
 }
 
 table {
-    width: 100%;
+    margin-left:10%;
+    margin-right:10%;
+
+    width: 85%;
     background-color: #FCEBB6;
     border-collapse: collapse;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -159,4 +166,25 @@ main {
     transition: background-color 0.3s ease;
     font-weight:bold;
     font-size:20px;
+}
+#bottomStuff{
+    display:flex;
+    width:fit-content;
+    height: fit-content;
+}
+#bottomStuff p{
+    font-weight: bold;
+    font-size:22px;
+    margin-right:25px;
+    margin-left:10px;
+
+}
+#myPieChart{
+    display: flex;
+    margin-left:16%;
+    margin-bottom:100px;
+}
+#colorPicker{
+    width:5%;
+    margin-right:5px;
 }

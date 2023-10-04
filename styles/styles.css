@@ -32,7 +32,7 @@ nav a:hover {
     color: #5E412F;
 }
 
-/* Colors you've provided for reference:
+/* Colors provided for reference:
 - 5E412F
 - FCEBB6
 - 78C0A8
@@ -40,6 +40,7 @@ nav a:hover {
 - F0A830
 */
 body {
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -48,6 +49,7 @@ body {
 }
 
 div {
+    
     background-color: #F07818;
     padding: 20px;
     border-radius: 5px;
@@ -85,15 +87,19 @@ table {
     width: 100%;
     background-color: #FCEBB6;
     border-collapse: collapse;
+
+    width:fit-content;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 th, td {
+    
     padding: 10px 15px;
     border: 1px solid #ccc;
 }
 
 th {
+    
     background-color: #F07818;
     font-weight: bold;
 }
@@ -102,6 +108,7 @@ tr:hover {
     background-color: #d6c07d;
 }
 #transactionsTable div {
+    font-weight: bold;
     border: 1px solid #ccc;
     margin: 2px;
 }
