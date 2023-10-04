@@ -1,0 +1,162 @@
+/* Existing styles here */
+
+
+header {
+    background-color: #FCEBB6;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F07818;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #F0A830;
+    color: #5E412F;
+}
+
+/* Colors you've provided for reference:
+- 5E412F
+- FCEBB6
+- 78C0A8
+- F07818
+- F0A830
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #78C0A8;
+    color: #5E412F;
+}
+
+div {
+    background-color: #F07818;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+    padding: 8px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #F0A830;
+    color: 78C0A8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f0af3e;
+}
+
+table {
+    width: 100%;
+    background-color: #FCEBB6;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #F07818;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #d6c07d;
+}
+#transactionsTable div {
+    border: 1px solid #ccc;
+    margin: 2px;
+}
+
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.intro p{
+    font-weight: bold;
+    font-size: 40px;
+}
+.intro h1{
+    font-weight: 600;
+
+    font-size: 55px;
+    color: #FCEBB6;
+    margin-top:500px;
+}
+.content h2 {
+    color: #FCEBB6;
+    margin-top:600px;
+}
+.content {
+    margin-bottom: 3rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+}
+
+.hide-on-scroll {
+    visibility: hidden;
+}
+
+#indexImage {
+    margin-top:300px;
+    margin-left:500px;
+    z-index: -20;
+    position:absolute;
+    width:680px;
+    height:630px;
+}
+
+#startButton {
+    padding: 8px 15px;
+    background-color: #F0A830;
+    width:150px;
+    height:50px;
+    color: 78C0A8;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight:bold;
+    font-size:20px;
+}

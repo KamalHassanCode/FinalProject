@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Finance Tracking App</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles/indexstyles.css">
     
 </head>
 <body>
@@ -18,45 +18,36 @@
             </ul>
         </nav>
     </header>
-    <canvas  id="myPieChart" width:250, height:250,></canvas>
-    <div>
-        <label for="type">Transaction Type:</label>
-        <select id="type">
-            <option value="income">Income</option>
-            <option value="expense">Expense</option>
-        </select>
-    
-        <label for="description">Description:</label>
-        <input type="text" id="description">
-    
-        <label for="amount">Amount:</label>
-        <input type="number" id="amount">
-        <label for="colorPicker">Category Color:</label>
-        <input type="color" id="colorPicker" value="#FF0000">
-        
-        <button onclick="addTransaction()">Add Transaction</button>
-    </div>
-    
-    <table id="transactionsTable" border="1">
-        <thead>
-            <tr>
-                <th>Type</th>
-                <th>Description</th>
-                <th>Amount</th>
-                <th>Date</th>
-                <th>Category</th>
+    <main>
+        <img src="assets/pngwing.com.png" id="indexImage" >
 
-            </tr>
-        </thead>
-        <tbody>
-            <!-- Transactions will be added here -->
-        </tbody>
-    </table>
+        <section class="intro">
+            <h1>StashApp</h1>
+            <p><u>Smart saving starts now.</u></p>
+        </section>
+        <input type="button" value="Get Started" id="startButton">
+        <section class="content hide-on-scroll">
+            
+            <h2>Manage your Savings</h2>
+            <p>Stay updated with your savings and ensure you're on the right track with our detailed analytics.</p>
+            <img src="https://placehold.co/600x400">
+        </section>
+        
+        <section class="content hide-on-scroll">
+            <h2>Monitor your Transactions</h2>
+            <p>Keep a keen eye on your expenses. Every penny counts!</p>
+        </section>
+    
+        <section class="content hide-on-scroll">
+            <h2>Currency Convertor</h2>
+            <p>Traveling or making international transactions? Stay updated with current exchange rates.</p>
+        </section>
+    </main>
+    
     <p id="savedMoneyDisplay"></p>
     <button id="clearButton">Clear All Data</button>
  
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/indexscript.js"></script>
 
 </body>
 </html>
