@@ -1,0 +1,162 @@
+
+header {
+    background-color: #FCEBB6;
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F07818;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+    background-color: #F0A830;
+    color: #5E412F;
+}
+
+
+.container {
+    position: relative;
+}
+
+
+.background-image {
+    width: 1420px; 
+    height: 600px; 
+    object-fit: cover; 
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1420px;
+    height: 600px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+}
+
+
+.overlay h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 18px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    background-color: #78C0A8;
+}
+
+
+
+
+
+
+.clickable-box {
+    width: 300px; 
+    height: 300px; 
+    background-color: #ffffff; 
+    border: 1px solid #333; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+.box1 {
+    background-color: #f07818;
+    margin-right:10px; 
+    margin-bottom:10px;
+    float: left;
+}
+
+.box2 {
+    background-color: #f0a838;
+    margin-right: 10px;
+}
+
+.box3 {
+    background-color: #f0a838;
+    margin-bottom: 10px;
+}
+
+.box4 {
+    background-color: #f07818;
+    
+}
+
+
+
+.clickable-box a {
+    text-decoration: none;
+    color: #804242; /* Text color */
+    display: block;
+    font-weight: bold;
+}
+
+
+.clickable-box:hover {
+    background-color: #907336;
+    color: #ffffff; 
+}
+
+.container1{
+    display:flex;
+    flex-direction: row;
+}
+
+.container2{
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Change the background color of the whole page */
+body {
+    background-color: #78C0A8; 
+}
+
+
+
+
+
